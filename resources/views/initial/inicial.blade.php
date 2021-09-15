@@ -43,7 +43,7 @@
             </ol>
         </section>
         <h1>
-            Bem vindo(a) ao nosso blog! Aqui traremos alguns livros e suas resenhas para que vocês possamacompanhar e até ter inspirações para iniciar outras leituras!
+            Bem vindo(a) ao nosso blog! Aqui traremos alguns livros e suas resenhas para que vocês possam acompanhar e até ter inspirações para iniciar outras leituras!
         </h1>
     </main>
 </body>
