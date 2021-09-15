@@ -26,7 +26,7 @@ class LivroController extends Controller
      */
     public function create()
     {
-        $users = User::all();
+        $users = User::find();
         return view("adm/livro/create", compact("users"));
     }
 
