@@ -39,7 +39,7 @@ class LivroController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'user_id' => 'required|integer',
+            'user_id' => 'required|integer|exists:App\models\User,id',
             'nomelivro' => 'required|max:255',
             'autor' => 'required|max:255',
             'resenha' => 'required',

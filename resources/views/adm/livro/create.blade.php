@@ -13,7 +13,7 @@
     @method('POST')
     <div class="row">
         <label class="col-2" for="user">Autor da resenha</label>
-        <select class="col-5" name="user" id="user_id">
+        <select class="col-5" name="user_id" id="user">
             <option></option>
             @foreach($users as $user)
             <option value="{{$user->id}}" @if($user->id==old('user_id')) selected @endif>{{$user->name}}</option>
@@ -38,7 +38,7 @@
     </div>
     <div class="row">
         <label class="col-2" for="imagem">imagem</label>
-        <input type="text" name="imagem" id="imagem" class="col-4" value="{{ old('imagem') }}" />
+        <input type="file" name="imagem" id="imagem" class="col-4" value="{{ old('imagem') }}" />
 
     </div>
     <button type="submit" class="button">Salvar</button>
